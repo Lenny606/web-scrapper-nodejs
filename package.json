@@ -1,0 +1,24 @@
+{
+  "name": "web-scraper-nodejs",
+  "version": "1.0.0",
+  "description": "��#\u0000 \u0000w\u0000e\u0000b\u0000-\u0000s\u0000c\u0000r\u0000a\u0000p\u0000p\u0000e\u0000r\u0000-\u0000n\u0000o\u0000d\u0000e\u0000j\u0000s\u0000\r\u0000 \u0000#\u0000 \u0000w\u0000e\u0000b\u0000-\u0000s\u0000c\u0000r\u0000a\u0000p\u0000p\u0000e\u0000r\u0000-\u0000n\u0000o\u0000d\u0000e\u0000j\u0000s\u0000\r\u0000 \u0000",
+  "main": "index.js",
+  "scripts": {
+    "test": "jest",
+    "start": "node main.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Lenny606/web-scrapper-nodejs.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Lenny606/web-scrapper-nodejs/issues"
+  },
+  "homepage": "https://github.com/Lenny606/web-scrapper-nodejs#readme",
+  "devDependencies": {
+    "jest": "^29.5.0"
+  }
+}
