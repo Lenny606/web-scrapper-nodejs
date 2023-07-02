@@ -1,4 +1,5 @@
 const { crawl } = require('./crawl');
+const { logResults } = require('./logResults');
 
 async function main() {
 
@@ -22,10 +23,11 @@ async function main() {
 
     const pages = await crawl(urlBase, urlBase, {})
 
-    for (const page of Object.entries(pages)) {
-        console.log(page)
-    }
-
+    // for (const page of Object.entries(pages)) {
+    //     console.log(page)
+    // }
+    //loging results in separate function
+    logResults(pages)
 }
 
 main()
